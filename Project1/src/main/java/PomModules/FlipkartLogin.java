@@ -14,7 +14,8 @@ public class FlipkartLogin {
 	@FindBy (xpath = "//span[text()='Account & Lists']")
 	private WebElement accAndList;
 	
-	@FindBy (xpath = "//span[text()='Sign in'])[1]")
+	//@FindBy (xpath = "//span[text()='Sign in'])[1]")
+	@FindBy (xpath = "//span[text()='Sign in767'])[1]")
 	private WebElement signin;
 	
 	@FindBy (xpath = "//input[@type='email']")
