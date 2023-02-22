@@ -29,7 +29,8 @@ public class FlipkartLogin {
 	@FindBy (xpath = "//input[@id='signInSubmit']")
 	private WebElement Signin ;
 	
-	@FindBy (xpath = "//input[@type='submit']")
+	//@FindBy (xpath = "//input[@type='submit']")
+	@FindBy (xpath = "//input[@type='submit121']")
 	private WebElement SearchClick;
 	
 	@FindBy (xpath = "//input[@type='text']")
@@ -76,6 +77,7 @@ public class FlipkartLogin {
 	
 	public void SearchButton () { 
 		SearchButton.click();
+		
 	}
 	
 	public void Mobile () {
